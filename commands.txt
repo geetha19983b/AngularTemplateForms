@@ -1,0 +1,19 @@
+https://putsreq.com/
+
+to have mock post request end point
+
+
+
+var parsedBody=JSON.parse(request.body);
+parsedBody.id='1234';
+
+response.body = parsedBody;
+
+response.status=400;
+response.body = {errorMessage:'some error'};
+
+
+ng add ngx-bootstrap --component buttons
+ng add ngx-bootstrap --component datepicker
+ng add ngx-bootstrap --component timepicker
+ng add ngx-bootstrap --component rating
